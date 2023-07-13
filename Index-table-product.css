@@ -1,0 +1,21 @@
+table, td, th{
+    border: 1px solid black;
+    width: 800;
+    font-family: 'Times New Roman', Times, serif; 
+}
+td{
+    text-align: center;
+}
+h1{
+    color:rgb(54, 50, 44);
+    
+}
+button{
+    background-color: green;
+}
+form{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}

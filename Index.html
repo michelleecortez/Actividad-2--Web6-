@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla de productos</title>
+    <link rel="stylesheet" href="Index-table-product.css">
+</head>
+<body>
+    <h1> Productos </h1>
+    <table>
+        <thead>
+            <tr>
+                <th> 
+                    <a href="Producto.html">
+                        <button> + Nuevo </button>
+                    </a>
+                </th>
+                <th> Código </th>
+                <th> Descripción </th>
+                <th> Código de barra </th>
+                <th> Precio unitario </th>
+                <th> Stock </th>
+                <th> Proveedor </th>
+                <th> Estado </th>
+                <th> Categoría </th>
+            </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>
+                <button style="background-color: cornflowerblue;" onclick="Editar"> Editar </button> <button style="background-color: red;" onclick="Eliminar"> Eliminar </button>
+            </td>
+            <td>1</td>
+            <td>Martillo</td>
+            <td>101253151489</td>
+            <td>2.50</td>
+            <td>10</td>
+            <td>Proveedor 1 </td>
+            <td>Si</td>
+            <td>Herramientas</td>
+        </tr>
+        <tr>
+            <td>
+                <button style="background-color: cornflowerblue;" onclick="Editar"> Editar </button> <button style="background-color: red;" onclick="Eliminar"> Eliminar </button>
+            </td>
+            <td>2</td>
+            <td>Kit de Herramientas</td>
+            <td>258981235849</td>
+            <td>10.50</td>
+            <td>20</td>
+            <td>Proveedor 2</td>
+            <td>Si</td>
+            <td>Herramientas</td>
+        </tr>
+    </tbody>
+    </table>
+</body>
+</html>
